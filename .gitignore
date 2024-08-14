@@ -1,16 +1,11 @@
-# Ignore build results
+# Ignore files already present on GitHub
+README.md
+LICENSE
+
+# Ignore build outputs and other common files
 bin/
 obj/
-
-# Ignore Visual Studio specific files
 *.user
 *.suo
+*.vscode/
 *.vs/
-
-# Ignore deployment files
-*.exe
-*.msi
-
-# Ignore temporary files
-*.tmp
-*.log
