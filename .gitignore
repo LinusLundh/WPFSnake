@@ -1,11 +1,11 @@
-# Ignore files already present on GitHub
-README.md
-LICENSE
-
-# Ignore build outputs and other common files
+# Ignore files that are commonly not needed
 bin/
 obj/
 *.user
 *.suo
 *.vscode/
 *.vs/
+
+# Exclude README.md and LICENSE if they're already on GitHub
+README.md
+LICENSE
